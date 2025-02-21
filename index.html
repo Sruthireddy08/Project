@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Burger Hut</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+<body>
+	<header>
+	  <div class="logo">
+		<img src="IMG-20250220-WA0164.jpg" alt="Burger Hut Logo">
+	  </div>
+	  <nav>
+		<ul>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#menu">Menu</a></li>
+		  <li><a href="#reservations">Reservations</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	  </nav>
+	</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Welcome to Burger Hut</h1>
+    <p>Experience the Taste of Perfection</p>
+    <a href="#menu" class="btn">Explore Our Menu</a>
+  </div>
+</section>
+
+<section class="about dark-theme" id="about">
+  <div class="about-content">
+    <h2>About Burger Hut</h2>
+    <p>Experience the finest gourmet burgers in a cozy and rustic atmosphere. At Berger Hut, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
+    <p>Our chefs meticulously craft each burger using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
+    <a href="#menu" class="btn">Explore Our Menu</a>
+  </div>
+  <div class="about-image">
+    <img src="WhatsApp Image 2025-02-20 at 18.11.31_08b478a0.jpg" alt="About Image">
+  </div>
+</section>
+
+
+<section class="menu" id="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-items">
+
+    <div class="menu-item">
+      <img src="IMG-20250220-WA0160.jpg" alt="Burger 1">
+      <h3>Classic Cheeseburger</h3>
+      <p>A timeless favorite! Juicy beef patty topped with melted cheddar cheese, fresh lettuce, tomatoes, pickles, and a special house sauce, all in a toasted bun.</p>
+      <p class="price">$7.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="IMG-20250220-WA0161.jpg" alt="Burger 2">
+      <h3>Veggie Delight</h3>
+      <p>A delicious veggie patty made from a blend of fresh vegetables and spices. Topped with avocado, sprouts, and tangy mayo. Served with a side of sweet potato fries.</p>
+      <p class="price">$8.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="WhatsApp Image 2025-02-20 at 18.11.30_53ec1a0f.jpg" alt="Burger 3">
+      <h3>Spicy BBQ Burger</h3>
+      <p>A fiery burger packed with flavor! Grilled chicken breast smothered in spicy BBQ sauce, topped with jalapeños, crispy onion rings, and chipotle mayo. Served with a side of coleslaw.</p>
+      <p class="price">$9.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="istockphoto-959027664-612x612.jpg" alt="Burger 4">
+      <h3>Spicy Combo</h3>
+      <p>A fiery fusion of juicy beef patty, spicy sauce, crispy jalapeños, and melty cheese, all stacked in a toasted bun for a bold, flavor-packed bite! 🔥🍔</p>
+      <p class="price">$10.99</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="istockphoto-1326120476-612x612.jpg" alt="Burger 5">
+      <h3>Combo Offer</h3>
+      <p>A delicious burger paired with crispy fries and a refreshing drink—the perfect combo for a satisfying meal! 🍔🥤🍟</p>
+      <p class="price">$12.99</p>
+      <button class="order-btn" >Order Now</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="reservations" id="reservations">
+  <div class="reservation-form">
+    <h2>Make a Reservation</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="IMG-20250220-WA0163.jpg" alt="Image 1">
+    </div>
+    <div class="image-item">
+      <img src="IMG-20250220-WA0159.jpg" alt="Image 2">
+    </div>
+    <div class="image-item">
+      <img src="download.jpeg" alt="Image 3">
+    </div>
+    <div class="image-item">
+      <img src="burger-hut-khalsa-college-putligarh-amritsar-restaurants-3iik0bp36d.avif" alt="Image 4">
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>123 Main Street, Telangana, India</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>+919080908090</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>info@bergerhut.com</p>
+      </div>
+    </div>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="WhatsApp Image 2025-02-20 at 18.11.29_76f90a1d.jpg" alt="Logo">
+    </div>
+    <nav class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Reservations</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <p class="footer-text">&copy; 2024 Berger Hut. All rights reserved.</p>
+</footer>
+
+
+</body>
